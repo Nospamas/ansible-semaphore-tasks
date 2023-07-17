@@ -1,0 +1,9 @@
+---
+- name: "home",
+  user_credentials: "nospamas-key",
+  sudo_credentials: "",
+  type: "static",
+  static_content: """
+    # octopi/3d printer / enviro+
+    [octopi]
+    octopi ansible_host=octopi.box.cansk.net"""

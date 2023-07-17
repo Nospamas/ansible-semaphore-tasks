@@ -1,0 +1,8 @@
+---
+- name: default
+  extra_variables: """
+  {}
+  """
+  environment_variables: """
+  {}
+  """

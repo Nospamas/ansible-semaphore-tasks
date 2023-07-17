@@ -1,0 +1,8 @@
+---
+- name: test task
+  description: a task to be synced into semaphore
+  playbook_filename: playbooks/ansible_playbook_sync_test.yml
+  inventory: home
+  repository: default
+  environment: default
+  
